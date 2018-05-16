@@ -53,8 +53,9 @@ endif
 preview: html serve
 	%
 
-publish:
+publish: clean
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+	cd $(BASEDIR) && rm -rf output/workspace
 
 git-pages: publish
 	ghp-import -n -m "Generate Pelican site from $(GIT_COMMIT_HASH)" -b gh-pages $(OUTPUTDIR)
