@@ -4,3 +4,6 @@
 [submodule "plugins/my-toc"]
 	path = plugins/my-toc
 	url = git@github.com:NapsterInBlue/pelican-toc.git
+[submodule "plugins/ipynb"]
+	path = plugins/ipynb
+	url = https://github.com/danielfrg/pelican-ipynb.git
