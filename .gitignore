@@ -1,0 +1,6 @@
+# Python-generated Files
+__pycache__/
+.ipynb_checkpoints/
+
+# Pelican output
+output/
