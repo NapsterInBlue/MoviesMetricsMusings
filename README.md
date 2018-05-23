@@ -1,5 +1,5 @@
 # MoviesMetricsMusings
-So the blog itself is looking at [another repo](https://github.com/NapsterInBlue/napsterinblue.github.io), and rendering it directly. This repository contains all of the course code to populate *that repository*.
+So the blog itself is looking at [another repo](https://github.com/NapsterInBlue/napsterinblue.github.io), and rendering it directly. This repository contains all of the course code to populate *that repository*. **I've personally edited the code there a whopping 0 times.**
 
 In hindsight, I don't think this is different enough from [the blog that I used to structure it off of](https://github.com/jakevdp/jakevdp.github.io-source#building-the-blog) to merit copying over forking.
 
