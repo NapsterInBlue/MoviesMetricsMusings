@@ -68,7 +68,7 @@ ARCHIVES_PAGE = '/pages/archives.html'
 SHOW_RESOURCES = True
 RESOURCES_PAGE = '/pages/resources.html'
 SHOW_NOTES = True
-NOTES_PAGE = '/notes/'
+NOTES_PAGE = '/notes'
 
 MARKDOWN = {
     'extension_configs': {
