@@ -16,7 +16,6 @@ Poking around a bit further, I found some really weird year-over-year shifts in 
 
 <center>{% img {filename}/images/oscars2/fb.png 500 %}</center>
 
-But as I dug into the relationship between the award show and the movies that they celebrate, a bigger, more interesting picture started to unfold. I had a growing confidence that I would be able to correctly pick a winner from my three candidate dates...
 
 <!-- PELICAN_END_SUMMARY -->
 
