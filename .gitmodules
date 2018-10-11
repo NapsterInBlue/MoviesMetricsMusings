@@ -13,6 +13,3 @@
 [submodule "content/workspace/notebooks/LetterDistributions"]
 	path = content/workspace/notebooks/LetterDistributions
 	url = https://github.com/NapsterInBlue/LetterDistributions
-[submodule "content/images/style_transfer"]
-	path = content/images/style_transfer
-	url = git@github.com:NapsterInBlue/style_transfer.git
