@@ -11,20 +11,20 @@ Getting handy with Deep Learning techniques has been a goal of mine for some tim
 
 <center>{% img {filename}/images/deep_nets.png %}</center>
 
-This is an alarmingly-reductive representation of what's happening under the hood, but if you're not familiar with Neural Networks/Deep Learning, the idea is that you feed some data in on the left, it comes out on the right with some sort of prediction. Along the way, Data Science™ happens as a result of our model iteratively figuring out the equations to affix to the black lines and blue circles. Provided that we give the program enough data and let it run for a long time, it can "learn" some really interesting behavior.
+This is an alarmingly-reductive representation of what's happening under the hood, but if you're not familiar with Neural Networks/Deep Learning, the idea is that you feed some data in on the left, it comes out on the right with some sort of prediction. Along the way, Data Science™ happens as a result of our model iteratively figuring out the equations to affix to the black lines and blue circles. Provided that we give the program enough data and let it run for a long time, it can "learn" some really complex behavior.
 
-An interesting application of these techniques is called *Neural Transfer Learning* where basically, we crack open one of these structures, show it two pictures, and let it figure out how to splice the two of them together by borrowing the **Content** from one and **Style** from the other. Some of the more famous examples look like the following:
+An interesting application of these techniques is called *Neural Style Transfer* where basically, we crack open one of these structures, show it two pictures, and let it figure out how to splice the two of them together by borrowing the **Content** from one and **Style** from the other. Some of the more famous examples look like the following:
 
 <center>{% img {filename}/images/style_transfer.png %}</center>
 <center>Screenshot taken from Course 4 Week 4 of the Specialization linked above</center>
 
-But this isn't intended to be a tutorial post (that's been expertly done [here](https://medium.com/artists-and-machine-intelligence/neural-artistic-style-transfer-a-comprehensive-look-f54d8649c199) and [here](https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398)), but instead a look at some of the more ridiculous applications of these techniques I've stumbled into.
+But this isn't intended to be a tutorial post (that's been expertly done [here](https://medium.com/artists-and-machine-intelligence/neural-artistic-style-transfer-a-comprehensive-look-f54d8649c199) and [here](https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398)). Instead let's look at some of the more ridiculous applications I've stumbled into!
 
 <!-- PELICAN_END_SUMMARY -->
 
 ## A Dog Day Afternoon
 
-Instead of visiting with friends and playing in the Alumni Marching Band at Michgan last weekend, I spent my Saturday at home sick as hell and tinkering with the [keras deep learning framework.](https://keras.io/). It took awhile to get everything up and running, but once I was set up, I was able to enjoy a "fire-and-forget" model training workflow where I could provide a couple images, then let the program do its thing while I went and napped.
+Instead of visiting with friends and playing in the Alumni Marching Band at Michgan last weekend, I spent my Saturday at home sick as hell and tinkering with the [keras deep learning framework.](https://keras.io/) It took awhile to get everything up and running, but once I was set up, I was able to enjoy a "fire-and-forget" model training workflow where I could provide a couple images, then let the program do its thing while I went and napped.
 
 And hey, check it out, it works!
 
@@ -207,11 +207,10 @@ And so we start with a base image
 <center>{% img {filename}/images/style_transfer/images/buscemi.jpg %}</center>
 <center>{% img {filename}/images/style_transfer/output/simpsons/buscemi_at_iteration_300.png %}</center>
 
-
-
 ______
 
-All blundering aside, I hope that if you made it this far down you enjoyed reading. [Here's a link to the repository that I used to put everything together](https://github.com/NapsterInBlue/Academy-Awards), including the raw box office data that I spent a day getting at-- [hit me up on Twitter](https://twitter.com/NapsterInBlue) if you wind up doing anything cool with it!
+
+This was as fun to write as it was weird to read. If you've got the hardware that can swing it, putting two images together is basically a one-liner from the command line. [Source code is here](https://github.com/NapsterInBlue/style_transfer)-- [hit me up on Twitter](https://twitter.com/NapsterInBlue) if you come up with anything particularly bad!
 
 Cheers,
 
