@@ -5,7 +5,7 @@ Tags: viz, light, data science, deep learning
 
 The last couple months have been blog-dark as I worked through the [Deep Learning Specialization](https://www.deeplearning.ai/courses/) on Coursera. After the first couple courses of fundamentals, we brought some practitioners on site at work to give us a two-day-long bootcamp on a whole range of topics. I've since worked my way through the next couple of courses regarding project structures and computer-vision applications; I also got my computer doing all of my model-training on my GPU (which equals *dramatically-faster* code!).
 
-Getting handy with Deep Learning techniques has been a goal of mine for some time now and so I'm excited to be able to start sharing some of the stuff I'm figuring out!
+Getting handy with Deep Learning techniques has been a goal of mine for some time now and so I'm excited to be able to start sharing some of the stuff I'm figuring out.
 
 ## Overview
 
@@ -264,7 +264,7 @@ So did a still from the Take On Me music video.
 <br></br>
 
 
-And the design document for my tattoo :)
+And the design document for my tattoo, courtesy of [Johnny Andres](https://www.instagram.com/johnnyandres/)
 
 <br></br>
 <center>{% img {filename}/images/style_transfer/images/tattoo.jpg %}</center>
