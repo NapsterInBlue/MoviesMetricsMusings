@@ -10,3 +10,6 @@
 [submodule "content/workspace/notebooks/The-Office-Lines"]
 	path = content/workspace/notebooks/The-Office-Lines
 	url = git@github.com:NapsterInBlue/The-Office-Lines.git
+[submodule "plugins/ipynb"]
+	path = plugins/ipynb
+	url = https://github.com/danielfrg/pelican-ipynb.git
