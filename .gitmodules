@@ -13,3 +13,6 @@
 [submodule "plugins/ipynb"]
 	path = plugins/ipynb
 	url = https://github.com/danielfrg/pelican-ipynb.git
+[submodule "content/workspace/notebooks/War"]
+	path = content/workspace/notebooks/War
+	url = git@github.com:NapsterInBlue/War.git
