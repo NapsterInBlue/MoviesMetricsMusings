@@ -98,6 +98,7 @@ There's a whole host of fantastic talks and tutorials scatted throughout the Int
 
 - [Discovering Python](https://www.youtube.com/watch?v=RZ4Sn-Y7AP8): David Beazley locks himself in a vault, recreates Git using Python, and becomes a straight-up wizard of an expert wizard in the discovery phase of a software lawsuit
 - [MarI/O](https://www.youtube.com/watch?v=qv6UVOQ0F44): No joke, the reason I started down the AI/ML route. Popular YouTuber SethBling teaches an AI to play the first level in Super Mario World
+- [Fighting Climate Change with Python](https://www.youtube.com/watch?v=WQkM3ppuhWo): Matt Gordon perfectly demonstrates just how powerful a full-stack Data Scientist can be.
 
 # The Rest
 
