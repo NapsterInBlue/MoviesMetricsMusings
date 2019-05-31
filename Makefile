@@ -54,7 +54,7 @@ preview: html serve
 	%
 
 publish: clean
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+	$(PELICAN) -q $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 	cd $(BASEDIR) && rm -rf output/workspace
 
 git-pages: publish
