@@ -29,7 +29,7 @@ You go on and repeat this until you've sampled 100 people and come up with (364 
 
 In our last example above, you were only considering 100 different pairs of people, and they were all you-centric. However, this fails to consider all of the checks that are happening in the room that don't involve you. Instead, we should think of the number of pairs in a room as the number of people times the number of potential partners, divided by two to correct for double-counting. This gives us:
 
-<center>{% img {filename}/images/birthday/pairs.PNG 400 %}</center>
+<center>{% img {static}/images/birthday/pairs.PNG 400 %}</center>
 
 In our example we reached out to 100 people, which means that there must've been 101 people in the room (100 plus you), giving us (101) * (100) / 2 = 5050 pairs. A few more comparisons than we were considering, yeah?
 
@@ -37,11 +37,11 @@ In our example we reached out to 100 people, which means that there must've been
 
 And so when you combine the probability of each check for different birthdays with the correct number of checks given a number of people in the room, you wind up with a neat equation for "Probability of No-Birthday-Matches" as follows:
 
-<center>{% img {filename}/images/birthday/birthdayEq.PNG 400 %}</center>
+<center>{% img {static}/images/birthday/birthdayEq.PNG 400 %}</center>
 
 Using this same equation, but tinkering with the number of people in the room (the exponent), we can see that the probability that there are no matches quickly goes to zero.
 
-<center>{% img {filename}/images/birthday/birthday.PNG 600 %}</center>
+<center>{% img {static}/images/birthday/birthday.PNG 600 %}</center>
 
 Indeed, we only need 23 people to be about 50% confident that there's no match. At 41 people, there's a 10% chance of that still being true, and at only 58, we're 99% confident that there's a birthday pair.
 
@@ -74,13 +74,13 @@ And so we have a room full of people of variable length and a fixed number of po
 
 If we generalize the formula we used above a bit, we get
 
-<center>{% img {filename}/images/birthday/genEq.PNG 500 %}</center>
+<center>{% img {static}/images/birthday/genEq.PNG 500 %}</center>
 
 Where NumValues is the number of possible values that we could check for (365 calendar days in the Birthday Paradox) and PopSize is the number of people in the room.
 
 A bit of computer nonsense™ later, and we can repeat the same "hold the possible values constant and tinker with the number of people" as above. We see that it takes about 118 people to be as certain as not that we're going to see duplicate numbers.
 
-<center>{% img {filename}/images/birthday/dmv.PNG 600 %}</center>
+<center>{% img {static}/images/birthday/dmv.PNG 600 %}</center>
 
 118 people. Considering that the board showed less than half of that a time, I think my error (in a hypothetical situation where I wasn't just reading wrong) seems to be a rare one, albeit not completely far-fetched.
 
@@ -93,7 +93,7 @@ The only difference between the first and the second example is what base we hel
 
 But what happens when we also arbitrarily increase the number of possible values at the same time?
 
-<center>{% img {filename}/images/birthday/generic.PNG 600 %}</center>
+<center>{% img {static}/images/birthday/generic.PNG 600 %}</center>
 
 There's a lot going on here, but one thing that I want to point out is that despite our "Number of potential values" axis being in the hundreds of thousands (bottom-right axis), our Population Size only needs to be in a few hundred to break that "more likely than not" barrier.
 
@@ -104,7 +104,7 @@ In fact, holding those target values (50%, 90%, 99%) equal, and playing with the
 - In the DMV example, 118 covered 10,000. 118 / 10,000 = 1.18%
 - In the graphic above, 471 covered 160k. *0.294%*
 
-<center>{% img {filename}/images/birthday/longterm.PNG 600 %}</center>
+<center>{% img {static}/images/birthday/longterm.PNG 600 %}</center>
 
 So where am I going with this?
 
@@ -114,7 +114,7 @@ If you aren't in the good handful of people who've been on the receiving end of 
 
 For instance, in Python, if you hash out the string values 'a' and 'b', they're represented as some crazy-long integers that are bafflingly different from one another, as a result of a multitude of differences in their bit representations (highlighted below).
 
-<center>{% img {filename}/images/birthday/hash.PNG 600 %}</center>
+<center>{% img {static}/images/birthday/hash.PNG 600 %}</center>
 
 SO...
 
@@ -167,7 +167,7 @@ And then an ah-ha moment! I could pay homage to one of my favorite movies, thus 
 
 And so after a bit of l337 5p34k finagling, I drove off with
 
-<center>{% img {filename}/images/birthday/plate.jpg 600 %}</center>
+<center>{% img {static}/images/birthday/plate.jpg 600 %}</center>
 
 # Notes
 

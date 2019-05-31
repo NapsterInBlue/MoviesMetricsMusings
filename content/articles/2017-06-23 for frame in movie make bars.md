@@ -17,7 +17,7 @@ Anyhow, I stumbled across a wildly amusing Reddit thread a couple years ago wher
 
 The Internet has taken to calling these Movie Bar Codes (which drives the pedant in me insane, lol) and other users have some pretty cool galleries of their takes on the project. One of my favorites is a [tumblr user whose been cranking out dozens of them](http://moviebarcode.tumblr.com/), with a grainier, hand-brushed aesthetic. So I bookmarked the links into my "would be cool to do" folder, then totally forgot about it.
 
-<center>{% img {filename}/images/moviebars/jackmkv.png 700 400 %}</center>
+<center>{% img {static}/images/moviebars/jackmkv.png 700 400 %}</center>
 <center>**The Jack Sparrow music video:** Look at how starkly that first Jack Sparrow scene pops at the first white bar, lol</center>
 
 
@@ -76,36 +76,36 @@ Hard part out of the way, this is where I got to start having fun with it. My id
 
 Historically-speaking, there's about a 600 year gap between **Gladiator** and **300**, but I thought it would be interesting to compare the two.
 
-<center>{% img {filename}/images/moviebars/Gladiatoravi.png 700 400 %}</center>
+<center>{% img {static}/images/moviebars/Gladiatoravi.png 700 400 %}</center>
 <center>**Gladiator**: Was really surprised by how much the blues stood out. I only really remember the sunburnt Colosseum scenes.</center>
 
-<center>{% img {filename}/images/moviebars/300mkv.png 700 400 %}</center>
+<center>{% img {static}/images/moviebars/300mkv.png 700 400 %}</center>
 <center>**300**: I anticipated a lot of red. The Spartan capes really stand out in memory, but alas, on average, we've got the standard Snyder, gritty palette.</center>
 
 Wait, what about a movie famous for it's lack of color? [Sin City](http://www.imdb.com/title/tt0401792/) was all in black and white, save for a few objects/characters that are vibrant shades of electric yellow and deep red. Maybe that would show up?
 
-<center>{% img {filename}/images/moviebars/sinmkv.png 700 400 %}</center>
+<center>{% img {static}/images/moviebars/sinmkv.png 700 400 %}</center>
 <center>**Sin City**: Hell yes it does!</center>
 
 I fired off some context-less texts-- "Hey, what's your favorite movie?"
 
-<center>{% img {filename}/images/moviebars/sunshinemkv.png 700 400 %}</center>
+<center>{% img {static}/images/moviebars/sunshinemkv.png 700 400 %}</center>
 <center>**Eternal Sunshine of the Spotless Mind**: Soul-crushing movie, decidedly gorgeous palette.</center>
 
-<center>{% img {filename}/images/moviebars/scottmkv.png 700 400 %}</center>
+<center>{% img {static}/images/moviebars/scottmkv.png 700 400 %}</center>
 <center>**Scott Pilgrim vs the World**: Love how glaringly obvious the bright-white techno ghost-dragon sequence stands out near the end.</center>
 
-<center>{% img {filename}/images/moviebars/fifthmkv.png 700 400 %}</center>
+<center>{% img {static}/images/moviebars/fifthmkv.png 700 400 %}</center>
 <center>**The Fifth Element:** Might be my favorite render to come out of this whole thing. What an awesome spattering of color.</center>
 
 Lastly, I remember [this awesome read from awhile back](https://screenmuse.wordpress.com/2012/11/03/colour-symbolism-red-in-the-sixth-sense/) that called out the importance of the color red in the Sixth Sense as a foreshadowing element. A number of times throughout the movie, when the screen is saturated with the color, a vision of a dead person is soon to follow.
 
-<center>{% img {filename}/images/moviebars/sixthmkv.png 700 400 %}</center>
+<center>{% img {static}/images/moviebars/sixthmkv.png 700 400 %}</center>
 <center>**The Sixth Sense:** The double-bars at the ~2/3 mark are the following:</center>
 
-<center>{% img {filename}/images/moviebars/sixth1.PNG 700 400 %}</center>
+<center>{% img {static}/images/moviebars/sixth1.PNG 700 400 %}</center>
 
-<center>{% img {filename}/images/moviebars/sixth2.PNG 700 400 %}</center>
+<center>{% img {static}/images/moviebars/sixth2.PNG 700 400 %}</center>
 
 And then the slow ban through the tent to the dead girl sitting across him vomiting in horror. Scared the hell out of me when I was a kid. Still does, lol.
 
@@ -124,19 +124,19 @@ Alas, I found some Python methods to get at this stuff, but couldn't, for the li
 
 Finally, my motivation for getting my hands dirty with this in the first place is to check out what the Cornetto Trilogy looked like. Hot Fuzz is my favorite movie of all time. Love the other two. Toss in Scott Pilgrim (pictured above) for good measure.
 
-<center>{% img {filename}/images/moviebars/shaunmkv.png 700 400 %}</center>
+<center>{% img {static}/images/moviebars/shaunmkv.png 700 400 %}</center>
 <center>**Shaun of the Dead**</center>
 
-<center>{% img {filename}/images/moviebars/hotfuzzmkv.png 700 400 %}</center>
+<center>{% img {static}/images/moviebars/hotfuzzmkv.png 700 400 %}</center>
 <center>**Hot Fuzz**</center>
 
-<center>{% img {filename}/images/moviebars/worldendmkv.png 700 400 %}</center>
+<center>{% img {static}/images/moviebars/worldendmkv.png 700 400 %}</center>
 <center>**The World's End**</center>
 
 Gonna get some stretched canvas prints and hang them together in my living room. Will update the post with pictures when they come in!
 
 **Update: Thrilled with how these turned out.**
 
-<center>{% img {filename}/images/moviebars/edgarwright.png 700 400 %}</center>
+<center>{% img {static}/images/moviebars/edgarwright.png 700 400 %}</center>
 
 As always, [GitHub link](https://github.com/NapsterInBlue/movie-barcodes) if anyone's interested in tinkering themselves.

@@ -3,7 +3,7 @@ Tags: meta, musing, python, technical, tools
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
-I'm sure we've all heard the "Hire a lazy person to do a job" Bill Gates quote a million times. But what does that actually mean? In the weeks leading up to and after [my last post on my Daylio data]({filename}/articles/2017-09-15 hey hows it going empirically.md), I've been thinking a lot about tools.
+I'm sure we've all heard the "Hire a lazy person to do a job" Bill Gates quote a million times. But what does that actually mean? In the weeks leading up to and after [my last post on my Daylio data]({static}/articles/2017-09-15 hey hows it going empirically.md), I've been thinking a lot about tools.
 
 And this is far less about what hardware you're using when you sit down to knock something out. Nor is it a stance on the Python vs R vs whatever else debate. Instead, I want to talk a bit about the way I consider tooling as an analyst, and how that's changed over the past couple of years.
 
@@ -19,11 +19,11 @@ How often do you take the time to learn hotkeys in whatever software you use?
 
 Take Excel for a example. Say you had some aggregated data in SQL or some other source, and you wanted to do some formatting to get from this
 
-<center>{% img {filename}/images/tools/excel1.PNG 400 %}</center>
+<center>{% img {static}/images/tools/excel1.PNG 400 %}</center>
 
 to this
 
-<center>{% img {filename}/images/tools/excel3.PNG 400 %}</center>
+<center>{% img {static}/images/tools/excel3.PNG 400 %}</center>
 
 If you were so inclined, you can get most of the way there by typing
 
@@ -52,13 +52,13 @@ If you were so inclined, you can get most of the way there by typing
 
 Which gives you
 
-<center>{% img {filename}/images/tools/excel2.png 400 %}</center>
+<center>{% img {static}/images/tools/excel2.png 400 %}</center>
 
 then it's just labeling the rows/columns with the headers, sizing them appropriately, turning gridlines off, and shading the cells on the top. Not moving mountains here, but if you're quick enough, you're probably saving yourself 30s or so per figure. (Found these links invaluable getting started in [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-keyboard-shortcuts?view=sql-server-2017) and [Sublime Text](http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_win.html). Hopefully they're helpful for you too.)
 
 Of course, getting comfortable with the right keys isn't anything new. If I'm firing up a new game that has more than like 6 action keys, you'd better believe that I'm spending the first hour or so running in circles and rebinding actions to my superfluous neckbeard mouse until I'm comfortable enough that I'm not deliberately thinking about which keys I'm pressing.
 
-<center>{% img {filename}/images/tools/loser.PNG 400 %}</center>
+<center>{% img {static}/images/tools/loser.PNG 400 %}</center>
 
 And the benefits of learning how to navigate with your key bindings aren't unique to just the programs themselves. For example, on Windows:
 
@@ -68,11 +68,11 @@ And the benefits of learning how to navigate with your key bindings aren't uniqu
 
 I'm confident that not all of these were news. But what about the global shortcut keys? Say you have a program that you often find yourself wanting to open quickly. Right-clickit
 
-<center>{% img {filename}/images/tools/shortcut.png 400 %}</center>
+<center>{% img {static}/images/tools/shortcut.png 400 %}</center>
 
 then right-click the name of the program itself, and select Properties. That'll take you to a prompt that looks like this.
 
-<center>{% img {filename}/images/tools/shortcut2.PNG 300 %}</center>
+<center>{% img {static}/images/tools/shortcut2.PNG 300 %}</center>
 
 Where you can set the "Shortcut Key" field to be whatever you want. I usually opt to make mine some derivation of "CTRL + ALT + SHIFT" and then some random character. This means that when I'm on a tear and want to get to some kind of tool, it's a keystroke, not some point-and-click away. Off the cuff, I do this for:
 
@@ -85,7 +85,7 @@ Where you can set the "Shortcut Key" field to be whatever you want. I usually op
 
 In addition to learning hotkeys, I use this cool desktop utility called [Always On Top](https://www.labnol.org/software/tutorials/keep-window-always-on-top/5213/) which allows you to keep windows you're not actively working on in the forefront of your screen, letting you do stuff like
 
-<center>{% img {filename}/images/tools/ontop.png 400 %}</center>
+<center>{% img {static}/images/tools/ontop.png 400 %}</center>
 
 Of course, just because you're faster doesn't necessarily mean you're better. If you get into the habit of just going as fast as your APM will allow, it's probable that you'll find yourself in a situation like this.
 
@@ -108,7 +108,7 @@ I've been gradually digging through the old PyCon archives the past couple weeks
 
 [The talk](https://www.youtube.com/watch?v=RZ4Sn-Y7AP8) is fascinating and absolutely worth the bookmark, but as it relates to this section header, it perfectly illustrates the kind of measured approach that I'm advocating for here. When faced with a problem that he could have, for sure, just started in on, he paused and assessed what tools would make his research go smoother. Even if he pushed himself to the absolute limit, there's no way that he'd be able to perform the complicated searching needed as well as a computer did, so instead he figured out what sorts of things he'd need to do, and set computer up to do it for him.
 
-<center>{% img {filename}/images/tools/fishing.PNG 500 %}</center>
+<center>{% img {static}/images/tools/fishing.PNG 500 %}</center>
 <center>Seriously, this guy's a wizard. Check him out.</center>
 
 And sure, by doing this, he saves himself a ton of headache. But the thing that's most exciting to me is that by setting himself up this way, **_he's minimized the amount of time it takes him to go from good idea to execution_**. As soon as he had an idea about how to explore the code, he could just hop in and do it.
@@ -138,7 +138,7 @@ Okay, so what sorts of things can you glean from this?
 
 Well, if you're creative, there's a messy dataset join that you can get at that would allow you to say "At this specific point in time, how many people were where?" Which is cool. You can throw that against any sort of time-specific metric you've got, from cleanups needed to figuring out when you should focus on restocking specific aisles in the store. You run that on enough different samples across time and you can start to see patterns, and enrich your understanding with visuals like this (different area colors represent the different aisles)
 
-<center>{% img {filename}/images/tools/stackedarea.png 500 %}</center>
+<center>{% img {static}/images/tools/stackedarea.png 500 %}</center>
 <center>Randomly-generated dataset made an interesting dip at 9:45. Too bad there's literally nothing to analyze, lol.</center>
 
 Obviously not going into the specifics, but it's not tough to imagine a use case for something like this for an analyst at a mortgage company. But that's the thing-- it's easy to think of a *bunch of problems that fit this form.* And to do all of the data processing/joining on the SQL side means that you'll find yourself copy/pasting, and subsequently modifying, the same chunk of code into whatever queries that you're putting together, every single time you want to do something like this. Hope you remember everything correctly!
@@ -180,7 +180,7 @@ In my last transition from one business area to another, I took the opportunity 
 
 But I'm also more-than-acutely aware that at glance, it might appear as if this is the only mode that I operate:
 
-<center>{% img {filename}/images/tools/the_general_problem.png 400 %}</center>
+<center>{% img {static}/images/tools/the_general_problem.png 400 %}</center>
 <center>Relevant XKCD, as always.</center>
 
 And in truth, this is something that I'm actively working on. I hardly think that I'm bullet-proof in this regard. Like anything, to shackle yourself to an absolute approach is to set yourself up to miss the mark, and flounder spectacularly doing so. So how do I strike a balance between tooling up and, well, actually doing anything?

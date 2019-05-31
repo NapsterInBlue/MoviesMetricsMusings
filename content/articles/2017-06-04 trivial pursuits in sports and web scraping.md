@@ -63,11 +63,11 @@ And it's great. Nowadays, I try to refrain from Reddit and Facebook until I'm ca
 
 Learning the different presidencies is a really useful bit of trivia anchoring. If I can map the whole history of the US to which president was reigning, then general-purpose history trivia questions have a bit of context, ya know? And so the front side is short and sweet.
 
-<center>{% img {filename}/images/anki/jamesMonroe.PNG 400 %}</center>
+<center>{% img {static}/images/anki/jamesMonroe.PNG 400 %}</center>
 
 And then the reverse
 
-<center>{% img {filename}/images/anki/jamesMonroe_reverse.PNG 400 %}</center>
+<center>{% img {static}/images/anki/jamesMonroe_reverse.PNG 400 %}</center>
 
 1. Which president number he was
 2. What years they were in office
@@ -84,7 +84,7 @@ The reverse side of my Movie Trivia is a bit more rigorous. It includes
 - Notable Writers
 - Any and all information about how they did at the Academy Awards
 
-<center>{% img {filename}/images/anki/jungleBook.PNG 400 %}</center>
+<center>{% img {static}/images/anki/jungleBook.PNG 400 %}</center>
 
 If about every movie I watch gets a [Letterboxd review](https://letterboxd.com/nick_m3blog/films/reviews/), every single movie I watch gets an Anki card.
 
@@ -92,13 +92,13 @@ If about every movie I watch gets a [Letterboxd review](https://letterboxd.com/n
 
 Finally, I have a deck for quotes that I like or want to remind myself. These can be things that I read somewhere, something someone said in a movie that resonated with me, or snippets of conversations that I've had that I want to hold onto. Here, I re-purpose the re-serve ratings at the bottom, not as my ability to remember them, but as a benchmark for how soon I want to wait before I hear them again.
 
-<center>{% img {filename}/images/anki/bangs.PNG 400 %}</center>
+<center>{% img {static}/images/anki/bangs.PNG 400 %}</center>
 
 ### The Rest
 
 Here's the broad swath of decks that I keep current with on my home PC. Buncha other, more technically-leaning, stuff in a separate account on my work computer.
 
-<center>{% img {filename}/images/anki/decks.PNG 200 %}</center>
+<center>{% img {static}/images/anki/decks.PNG 200 %}</center>
 
 ### I Suck at Sports
 
@@ -112,18 +112,18 @@ I love watching them. I enjoy playing them. During my years in the Michigan Marc
 
 Blame it on my crap attention-span, I don't watch a lick of baseball. And I've got a real cognitive dissonance about that. As a numbers/data nerd, this should be the sport that I'm most dedicated to watching, stereotypically. I love the movie Moneyball and get fired up about it every time I watch it, but then I turn on a baseball game and make it minutes, not hours, before I'm doing something else. Football and basketball just more my speed, I guess. Anyhow, to get at World Series information, I just jumped right to the "List of World Series Champions" page of Wikipedia and clicked into the years of each game, in red below.
 
-<center>{% img {filename}/images/anki/worldseries1.PNG 600 %}</center>
+<center>{% img {static}/images/anki/worldseries1.PNG 600 %}</center>
 
 
 From here, I would basically mine the info box in the right pane for pretty much everything I'm interested in memorizing.
 
-<center>{% img {filename}/images/anki/worldseries2.png 600 %}</center>
+<center>{% img {static}/images/anki/worldseries2.png 600 %}</center>
 
 For you unawares, any time that you're trying to figure out how to scrape a site, the F12 and CTRL+SHIFT+C keys are your best friends. The former opens up the underlying HTML, while the latter allows you to click on elements of the page to highlight where they are in the garbly-goop (a very-technical Computer Science term) of web code your field of interest lies. From here, I used the [Requests](http://docs.python-requests.org/en/master/) and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) libraries for Python to pick out the pieces that I wanted.
 
 My objectives were pretty straight-forward. I was grabbing:
 
-<center>{% img {filename}/images/anki/worldseries3.PNG 400 %}</center>
+<center>{% img {static}/images/anki/worldseries3.PNG 400 %}</center>
 
 1. The winning team, which was thankfully always the first of the two teams on these pages
 2. The losing team, just the opposite
@@ -136,18 +136,18 @@ Then I'd transform those fields into Anki cards where the front read "`[YEAR OF 
 
 Hey, what do you know, this approach translated more or less seamlessly to figuring out the NBA Finals!
 
-<center>{% img {filename}/images/anki/nba1.png 600 %}</center>
-<center>{% img {filename}/images/anki/nba2.PNG 400 %}</center>
+<center>{% img {static}/images/anki/nba1.png 600 %}</center>
+<center>{% img {static}/images/anki/nba2.PNG 400 %}</center>
 
 ### Stanley Cup Finals
 
 And then for whatever reason, I stopped being able to rely on this format.
 
-<center>{% img {filename}/images/anki/nhl1.PNG 600 %}</center>
+<center>{% img {static}/images/anki/nhl1.PNG 600 %}</center>
 
 This chunk of the algorithm was fine.
 
-<center>{% img {filename}/images/anki/nhl2.PNG 450 %}</center>
+<center>{% img {static}/images/anki/nhl2.PNG 450 %}</center>
 
 But then I couldn't use the "team on top was the winner" heuristic anymore. Bleh.
 
@@ -155,19 +155,19 @@ My work-around was kind of janky:
 
 - First, I grab anything that looks like a team
 
-<center>{% img {filename}/images/anki/nhl3.png 400 %}</center>
+<center>{% img {static}/images/anki/nhl3.png 400 %}</center>
 
 - Then, give me all of the teams who are listed with a bold font, like the Red Wings above. This was the winning team.
 
-<center>{% img {filename}/images/anki/nhl4.png 400 %}</center>
+<center>{% img {static}/images/anki/nhl4.png 400 %}</center>
 
 - Using that result, I'd then 'subtract' whatever team this was from the list of teams.
 
-<center>{% img {filename}/images/anki/nhl5.png 400 %}</center>
+<center>{% img {static}/images/anki/nhl5.png 400 %}</center>
 
 - Finally, this list of teams, only having one value, is now the list of losers in this series (length 1)
 
-<center>{% img {filename}/images/anki/nhl6.png 400 %}</center>
+<center>{% img {static}/images/anki/nhl6.png 400 %}</center>
 
 And grabbing the MVP worked as intended.
 
@@ -181,19 +181,19 @@ World Series works great, too.
 
 Then the last 20 years of Stanley Cup Finals breaks. Balls.
 
-<center>{% img {filename}/images/anki/lockout1.PNG 550 %}</center>
+<center>{% img {static}/images/anki/lockout1.PNG 550 %}</center>
 
 And so I toss in a Try/Except block, which is the coding equivalent to saying "I know this is busted, but do it anyways, lol." with a print statement to zero in on the year that this thing goes off the rails on the last line.
 
-<center>{% img {filename}/images/anki/lockout2.PNG 550 %}</center>
+<center>{% img {static}/images/anki/lockout2.PNG 550 %}</center>
 
 Ran it again. Huh. What's going on in 2005?
 
-<center>{% img {filename}/images/anki/lockout3.PNG 500 %}</center>
+<center>{% img {static}/images/anki/lockout3.PNG 500 %}</center>
 
 Again, the universe reminds me that coding skills are a complement, not a substitute, for some good old-fashioned common sense and practical knowledge.
 
-<center>{% img {filename}/images/anki/lockout4.PNG 550 %}</center>
+<center>{% img {static}/images/anki/lockout4.PNG 550 %}</center>
 
 ## Conclusion
 

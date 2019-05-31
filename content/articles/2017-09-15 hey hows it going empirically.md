@@ -11,10 +11,10 @@ Tags: architecture, python, technical, tools, viz, wellness
 
 Generally speaking, I've always struggled with mental health stuff and in turn, go through varying levels of "do something about it." Feels like I spend a good chunk of time vacillating wildly between "too anxious to keep anything straight" and "too depressed to want to keep anything straight." Of course, there are long tears where this is less the case, but it always felt borderline-arbitrary how things would just come and go.
 
-So as I've mentioned in [previous posts]({filename}/pages/resources.md), I've been using a mobile app called Daylio for the better part of a year. It was recommended to me by my good friend Will when I was going through something of a slump as a way to try and sort things out. Figured it was probably a better better approach to do something instead of literally nothing from a monitoring/reflection standpoint.
+So as I've mentioned in [previous posts]({static}/pages/resources.md), I've been using a mobile app called Daylio for the better part of a year. It was recommended to me by my good friend Will when I was going through something of a slump as a way to try and sort things out. Figured it was probably a better better approach to do something instead of literally nothing from a monitoring/reflection standpoint.
 Naturally, I gravitated to something that would metricize what I couldn't get a good handle on, because:
 
-<center>{% img {filename}/images/daylio/job.jpg %}</center>
+<center>{% img {static}/images/daylio/job.jpg %}</center>
 <center>For real.</center>
 
 
@@ -24,7 +24,7 @@ Naturally, I gravitated to something that would metricize what I couldn't get a 
 
 Using Daylio is easy enough. 5 times a day, I get a push notification that looks like this
 
-<center>{% img {filename}/images/daylio/push.png 250 %}</center>
+<center>{% img {static}/images/daylio/push.png 250 %}</center>
 
 which basically prompts you for a 1-5 Likert Scale of your current mood. You can set as many alerts as you want, or just input your mood whenever you're so inclined. I just thought it made sense to catch some data at different cross-sections of the day and so I've got alerts coming at:
 
@@ -36,38 +36,38 @@ which basically prompts you for a 1-5 Likert Scale of your current mood. You can
 
 from here, you're taken to a page with a bunch of Tags and invites you to mark what you've done since the last time you checked in.
 
-<center>{% img {filename}/images/daylio/tags.png 250 %}</center>
+<center>{% img {static}/images/daylio/tags.png 250 %}</center>
 <center>Blurred for perhaps-obvious reasons</center>
 
 I should mention that all of the tags that you're selecting are ones that you build yourself. I honestly don't remember which ones the app comes with (if any), but with well-over 100 icons that you can select from, there's a huge diversity of things that you can choose to capture. It took me awhile to figure out what worked for me-- I'd wager that I have more tags than the average user, and by extension, probably way more than I actually need.
 
 And so among other things, my tags are best summarized as:
 
-<center>{% img {filename}/images/daylio/tags1.png 300 %}</center>
+<center>{% img {static}/images/daylio/tags1.png 300 %}</center>
 <center>My Eating Habits</center>
 
-<center>{% img {filename}/images/daylio/tags2.png 300 %}</center>
+<center>{% img {static}/images/daylio/tags2.png 300 %}</center>
 <center>How Well I'm Sleeping</center>
 
-<center>{% img {filename}/images/daylio/tags3.png 300 %}</center>
+<center>{% img {static}/images/daylio/tags3.png 300 %}</center>
 <center>A More Elaborate Description of Mood</center>
 
-<center>{% img {filename}/images/daylio/tags4.png 300 %}</center>
+<center>{% img {static}/images/daylio/tags4.png 300 %}</center>
 <center>Info about Meds</center>
 
-<center>{% img {filename}/images/daylio/tags5.png 300 %}</center>
+<center>{% img {static}/images/daylio/tags5.png 300 %}</center>
 <center>How Active I'm Staying</center>
 
-<center>{% img {filename}/images/daylio/tags6.png 300 %}</center>
+<center>{% img {static}/images/daylio/tags6.png 300 %}</center>
 <center>How Work Went</center>
 
-<center>{% img {filename}/images/daylio/tags7.png 300 %}</center>
+<center>{% img {static}/images/daylio/tags7.png 300 %}</center>
 <center>How Organized I'm Staying</center>
 
-<center>{% img {filename}/images/daylio/tags8.png 300 %}</center>
+<center>{% img {static}/images/daylio/tags8.png 300 %}</center>
 <center>How I'm Spending my Downtime</center>
 
-<center>{% img {filename}/images/daylio/tags9.png 300 %}</center>
+<center>{% img {static}/images/daylio/tags9.png 300 %}</center>
 <center>And Who I'm Spending it With</center>
 
 ## So What?
@@ -89,11 +89,11 @@ Of course, reading that article got the gears turning and I set out to suss out 
 
 I wanted to understand what kinds of things drove a day that looked like this
 
-<center>{% img {filename}/images/daylio/goodvariance.png 300 %}</center>
+<center>{% img {static}/images/daylio/goodvariance.png 300 %}</center>
 
 Or have some intuition that explained dips like this
 
-<center>{% img {filename}/images/daylio/aggregate.png 300 %}</center>
+<center>{% img {static}/images/daylio/aggregate.png 300 %}</center>
 
 But the tool didn't do enough to answer that.
 
@@ -103,14 +103,14 @@ More frustrating yet, I couldn't get very good insight about the relationship be
 
 For example, I could click into the "Often Together" view and see that when I'm *worried/anxious* I'm typically doing *Meh* or worse.
 
-<center>{% img {filename}/images/daylio/badcorr1.png 300 %}</center>
+<center>{% img {static}/images/daylio/badcorr1.png 300 %}</center>
 <center>Go figure</center>
 
 But I couldn't answer the effects of non-entries-- if I didn't get 7 1/2 hours of sleep, were those mornings better or worse than when I did? I also couldn't answer questions about the preceding and after-effects of Tags. How could I use this to determine if I drank more after I was having a rough go at it? (I'm happy to say that I'm, empirically, a strictly social drinker.)
 
 I also couldn't examine the relationships between the different Tags. Not that it takes hard data science to gather that I'll often shower if I'm hitting the gym, or if I'm deliberately relaxing, there's probably a movie involved (what, because the name of the blog and all...). But I'd like to know things like "How often does the floundering Tag come on the heels of mornings that I took the time to plan. I'd wager fewer than those that don't.
 
-<center>{% img {filename}/images/daylio/badcorr2.png 300 %}</center>
+<center>{% img {static}/images/daylio/badcorr2.png 300 %}</center>
 <center>And good luck sorting this out.</center>
 
 Lastly, like the "Monthly Mood Chart" above, all of this "Stats" tab data is grouped at the month-level, so any significant trending in the nearly 300 days I've been collecting data is out of reach through just the app alone.
@@ -121,7 +121,7 @@ But then I found the "Export Data" functionality. It was time I finally rolled u
 
 But the data dump looked crazy gross.
 
-<center>{% img {filename}/images/daylio/dump.PNG 700 %}</center>
+<center>{% img {static}/images/daylio/dump.PNG 700 %}</center>
 
 Specifically:
 
@@ -136,7 +136,7 @@ What were some of the things that I wanted this data to do for me?
 
 Intra-day movement. If I'm doing 5 Entries a day, I need the ability to interrogate each individual Entry, relative to that Entry's Mood. And then one step further, tie that Entry's Mood to the day and the Entries around it.
 
-<center>{% img {filename}/images/daylio/badvariance.png 300 %}</center>
+<center>{% img {static}/images/daylio/badvariance.png 300 %}</center>
 <center>I probably want to know what kinds of Tags happen between Entries like this, yeah?</center>
 
 Ultimately, I'd do something like:
@@ -159,7 +159,7 @@ This would allow me to go from ferreting through 5 Entries a day to just having 
 
 So what I gather is that if I can get everything down to the Tag level, I can answer damn-near any question I want: Entry-level stuff by rolling the Tags up to the Entries. Same goes for Day-level stuff by rolling the Entries up to the Days. Time to get cleaning.
 
-<center>{% img {filename}/images/daylio/data-cleansing.jpg 600 %}</center>
+<center>{% img {static}/images/daylio/data-cleansing.jpg 600 %}</center>
 <center>Look at this garbage picture that came up when I googled "data cleaning" lol</center>
 
 ## Hand-Wavy Technical Details
@@ -180,7 +180,7 @@ I'd contend that 90% of my SQL experience at work is Reading data from our wareh
 
 Here's the schema I wound up with, if anyone's interested.
 
-<center>{% img {filename}/images/daylio/schema.PNG 700 %}</center>
+<center>{% img {static}/images/daylio/schema.PNG 700 %}</center>
 
 # Now What?
 
@@ -192,13 +192,13 @@ And so at the time of writing, I've got
 
 All told, that month-by-month view aggregates to
 
-<center>{% img {filename}/images/daylio/trend.png 600 %}</center>
+<center>{% img {static}/images/daylio/trend.png 600 %}</center>
 
 Which looks overwhelming, right? Lot of spikes on both sides. Some interesting whipsawing, for sure. But in my estimation, it's better to know than to not know. The alternative is feeling these things anyways and not being able to sort out why, and by extension of that, what to do about it.
 
 And so I have tangible looks at how things are going at the expense of what, 15 seconds a few times a day? I'm okay with that trade-off. Because as I start to pay more attention, I'm, slowly but surely, figuring out how to take better care of myself.
 
-<center>{% img {filename}/images/daylio/trend2.png 600 %}</center>
+<center>{% img {static}/images/daylio/trend2.png 600 %}</center>
 
 Thanks for reading.
 

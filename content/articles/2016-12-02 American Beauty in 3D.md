@@ -12,13 +12,13 @@ Anyhow
 
 The movie ended, and I sat and pored through my notes and doodles that I took down while I was watching. This might not be the most accessible way to share my thoughts, but ultimately, I came away from this movie thinking about a 3-dimensional space. Bear with me.
 
-<center>{% img {filename}/images/beauty/xyz.png 400 %}</center>
+<center>{% img {static}/images/beauty/xyz.png 400 %}</center>
 
 Chances are, you've probably seen something like the above in one capacity or another. Movement to the bottom-right means that the X value is getting bigger. Movement to the top means the same for Z. Similar deal for Y. Cool. Points can float somewhere in this space that we've cooked up. I'll spare you the lousy sketch and grab something a bit more polished from Google.
 
 <!-- PELICAN_END_SUMMARY -->
 
-<center>{% img {filename}/images/beauty/good3d.png %}</center>
+<center>{% img {static}/images/beauty/good3d.png %}</center>
 
 Each point represents an observation of some sort of data. The axes could be pretty much anything you'd care to measure. In one of my very favorite examples of Machine Learning (which, if that's something you're interested in, by all means, close this, read this. It's fantastic.), the first step in predicting the location of a house is doing a similar exercise and putting various metrics on their own axes; combining them you wind up with a ton of data points that represent individual houses.
 
@@ -47,7 +47,7 @@ So our spectrums
 
 This takes us to something that looks kinda like this
 
-<center>{% img {filename}/images/beauty/spectrum.png 400 %}</center>
+<center>{% img {static}/images/beauty/spectrum.png 400 %}</center>
 
 You can imagine that, like the image above this one, each of the characters in the movie have their own dots, and if you tried mapping those out throughout the story, they'd move and shift. That's storytelling.
 
@@ -55,12 +55,12 @@ You can imagine that, like the image above this one, each of the characters in t
 
 Unpacking, and, regrettably, further math-ifying this idea, imagine that there's some actual significance to where a dot falls in this space. Imagine that there's a [Black Box function](https://en.wikipedia.org/wiki/Black_box), an equation that I'm going to call **Turbulence**. Each possible dot at the intersection of these 3 axes maps to some level of turmoil, of inner strife. The complicated mess of personality gets stuffed into this sausage equation that returns a degree of inner peace, or lack thereof. A character that's considered to be 'one-dimensional,' with embarrassingly clear motivations and predictable interactions with the world around them, fits neatly into this paradigm, probably only having strong tendencies in one axis. Hacky writers use these characters as soulless plot drivers, while others consider the effect that this imbalance has on a character.
 
-<center>{% img {filename}/images/beauty/allwork.jpg 600 %}</center>
+<center>{% img {static}/images/beauty/allwork.jpg 600 %}</center>
 <center>This blog post features original and proprietary ideas.</center>
 
 The important distinction that I want to note is that this Black Box Turbulence function doesn't behave in any uniform fashion. As I've crudely illustrated below, you could be exactly the same in 2 of the 3 spectrums, but one arbitrary and poorly-illustrated unit step on the third behaves wildly different.
 
-<center>{% img {filename}/images/beauty/fruits.png 600 %}</center>
+<center>{% img {static}/images/beauty/fruits.png 600 %}</center>
 
 But hey, this is all conjecture, generalizations, and some paint.net finagling, but this is life, right? We can't "optimize" Turbulence; nobody's solved for it. I can't possibly imagine that my values and what works for me is what works for you. That's what makes us unique.
 
@@ -68,7 +68,7 @@ Lester and Carolyn share a life together. They come home to the same house, dine
 
 But if you accept the way that I'm framing this so far-- the inherent randomness in this theoretical Turbulence Space--, then "character development" isn't a parallel trajectory shared by everyone in the story. They aren't all wired the same way and therefore aren't all marching toward the same definition of "healthy," of "happy." Hell, I'd contend that for the majority of the movie, Carolyn barely moves at all. If I asked you to give me a rough sketch of where her dot would be, it'd probably look something like this, right?
 
-<center>{% img {filename}/images/beauty/spectrum2.png 400 %}</center>
+<center>{% img {static}/images/beauty/spectrum2.png 400 %}</center>
 
 She's portrayed as someone who has bought into the values of middle-America, hook-line-and-sinker, with very little regard for reflection, reinvention. Her biggest expressions of emotion happen after public failures, and she handles them as privately as she does violently. Nobody is a harder critic on Carolyn than Carolyn, but she's completely blind to this, instead boiling up during the Third Act to race home with a bullet meant for Lester, chanting a mantra about her victimhood.
 
@@ -104,7 +104,7 @@ All models and brain dumping aside, I want to summarize with two of my biggest l
 
 The first being that our best guess for where someone lies is Turbulence Space is just that, a guess. Lately, I've been trying to work on developing better GitHub skills and in doing so was referred to an awesome site called [think-like-a-git.net](http://think-like-a-git.net/). Perhaps it's because I stumbled across it this morning and the thought was still alive in my head, latent, but the author had a really great learning moment that I think is [worth sharing.](http://think-like-a-git.net/sections/git-makes-more-sense-when-you-understand-x/example-1-kent-beck.html)
 
-<center>{% img {filename}/images/beauty/kent.png %}</center>
+<center>{% img {static}/images/beauty/kent.png %}</center>
 
 We really don't know. But on the off chance that we nail that guess, we often have a comically incorrect view of how together someone's got everything-- especially if they're the type of person who values their perception. As I've more than belabored at this point, that Black Box Turbulence function is no joke.
 

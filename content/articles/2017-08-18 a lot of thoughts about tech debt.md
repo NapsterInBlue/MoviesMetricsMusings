@@ -22,7 +22,7 @@ Don't let my over-opinionatedness on the story deter you, it's always a real poi
 
 After all, you have to right the capsized boat before you can bail out the water before you plug the holes before you can sail smoothly. Without good pacing and scenario-framing, you run the risk of pulling one of these numbers.
 
-<center>{% img {filename}/images/phoenix/owl.jpg %}</center>
+<center>{% img {static}/images/phoenix/owl.jpg %}</center>
 
 Last pull-quote (for at least a few paragraphs...) before I launch into this
 
@@ -46,7 +46,7 @@ I suppose I ought to get a couple quick definitions out of the way. The phrases 
 - That's about the long and skinny of it. Business, Development, Operations, and End Users. Then near the end of the book, **!!SPOILERS!!** the portmanteau DevOps is, unsurprisingly, one of these numbers.
 
 
-<center>{% img {filename}/images/phoenix/gotenks.PNG %}</center>
+<center>{% img {static}/images/phoenix/gotenks.PNG %}</center>
 <center>I'd hire me, if for nothing than my journalistic integrity alone. Though, I think this needs more jpeg.</center>
 
 There really isn't any meaningful interaction in this story with the end users. They're basically just plot devices and shaming instruments when things go south (Think of how much you let them down! D: ). The two major conflict groups are between the Development and Operations teams and between the Business and IT-- the book describes the CEO/CIO relationship like a failed marriage where both sides feel powerless and held hostage against one another. Damn.
@@ -96,23 +96,23 @@ I had a hard time outlining this section. The book juggles fleshing out two sepa
 
 The Theory of Constraints is a based off of a book called The Goal, which I've never read but the characters in The Phoenix Project have, and they spend much of their dialogue beating a bunch of bullet points and heuristics into your head. As far as I can tell, all you really need to keep in mind is that "Improvement anywhere but the bottleneck is an illusion." I like to think about this one visually.
 
-<center>{% img {filename}/images/phoenix/tent1.png %}</center>
+<center>{% img {static}/images/phoenix/tent1.png %}</center>
 
 So in this simple pet example the work is finished when we go from B to C. That of course happens after the work flows from A to B. The numbers along the edge of the arrows signify how long that work actually takes. Thus, summing them up, you get 3 + 5 = 8 units of time until you're one.
 
-<center>{% img {filename}/images/phoenix/tent2.png %}</center>
+<center>{% img {static}/images/phoenix/tent2.png %}</center>
 
 If we wanted to improve the overall time it took to finish the work, we might consider making process improvements to shorten the time it takes for either of the legs to be completed. Here, reducing AB to 1, our overall time goes from 8 to 6.
 
-<center>{% img {filename}/images/phoenix/tent3.png %}</center>
+<center>{% img {static}/images/phoenix/tent3.png %}</center>
 
 Here's where things get dicey and the principle of the Theory of Constraints comes into focus. Imagine now that item B requires the completion of both items A and D, which can be done simultaneously. You may notice now that the improvement we made in the turn time from A to B is inconsequential. 4 > 1, therefore giving us a total time of 4 + 5 = 9 units of time, up from 6.
 
-<center>{% img {filename}/images/phoenix/tent4.png %}</center>
+<center>{% img {static}/images/phoenix/tent4.png %}</center>
 
 More worrisome yet, imagine that we've got this huge unit of work spanning from E to C for a whopping 20. Just like before, the left chunk can be done in tandem with the right chunk, but ultimately, your final product isn't done until all of the segments connecting to C are done. The whole process just went from 9 to 20.
 
-<center>{% img {filename}/images/phoenix/tent5.png %}</center>
+<center>{% img {static}/images/phoenix/tent5.png %}</center>
 
 Finally, to belabor the point this theory intends to make, say we do the near-impossible and figure out a way to bring every other leg of production to a measly 1 unit. **It should be clear by now that this is just work for work's sake and unambiguously a waste of time.** Still 20.
 
@@ -128,14 +128,14 @@ Recall that throughput is the relationship between what's coming in and what's g
 
 I always think about this concept in terms of pipes, and happy-accident, Google gave me an image that neatly touches back on our discussion of bottlenecks-- you're starting to see how these things are related, yeah?
 
-<center>{% img {filename}/images/phoenix/pipes.png 500 %}</center>
+<center>{% img {static}/images/phoenix/pipes.png 500 %}</center>
 <center>Original image stopped being hosted so I tried recreating it.</center>
 
 Though this image doesn't have a one-to-one representation with how we visualized work in The Theory of Constraints above, the mantra still holds: "Improvements anywhere besides the bottleneck are an illusion." Work comes into P0 from the left. But, as you can see, the flow of work is pretty dismal going from P1 to P2. What's more, is that based on this diagram, P1 is about to start hitting its capacity as well, as work/water is just sitting, stagnant, waiting to enter through P2. This is a great segue to what I found to be one of the most interesting conjectures that The Phoenix Project has, and that's about the toxicity of idle work. To highlight this notion, the book establishes some napkin-math-level intuition, examining roughly how long it'd take you to pick up new tasks based on how busy you are.
 
 First, consider that all of your time sums up to 100%, split between time you're busy and time you're not.
 
-<center>{% img {filename}/images/phoenix/waittime1.png %}</center>
+<center>{% img {static}/images/phoenix/waittime1.png %}</center>
 
 Examining the two extremes, if you're completely busy (100%), you will never start working on a new thing without abandoning what you're already doing. We don't want that. On the other hand, you can, of course, immediately pick up something new if you've got nothing else going on (0%).
 
@@ -143,7 +143,7 @@ Naturally, this is a very simplified example, thick with assumptions. For strate
 
 But we can try and pin this closer (though still imperfectly) to reality by putting some units of time to these waiting periods and re-scaling the y-axis to illustrate total time in a 40 hr work week.
 
-<center>{% img {filename}/images/phoenix/waittime2.png %}</center>
+<center>{% img {static}/images/phoenix/waittime2.png %}</center>
 
 Now here's where this gets interesting. Non-zero buffer time to ramp up and work on a task is hardly a far-cry from practical application. As an analyst, if something new falls into my lap, I spend a good deal of time reading relevant email threads, asking questions, digging through unfamiliar data sources, setting up project repositories before I write a single line of code. Complicate this more with any variety of messy handoffs or scope creep, but hopefully the intuition is solid: if you were to generically track the total time it takes for "work" to get done (IT tasks, roller coaster lever-operation, line cooking), it's probable that the **work items spend more time in a queue than actually being worked on.**
 

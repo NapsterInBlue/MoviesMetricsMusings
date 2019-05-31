@@ -18,7 +18,7 @@ The whole article series is a really interesting read and will likely show up, i
 - The top half of the circle represents the zone that is familiar and comfortable, the bottom the unfamiliar and challenging
 - Nearly every story starts out in a relative state of comfort at the 12 o'clock spot. As the story devlops we see the protagonist's journey around the circle and its neat points of story-telling milestones.
 
-<center>{% img {filename}/images/horror/template.png %}</center>
+<center>{% img {static}/images/horror/template.png %}</center>
 <center>First draft of the hacky screenplay I'm not writing</center>
 
 <!-- PELICAN_END_SUMMARY -->
@@ -96,7 +96,7 @@ I took these two concepts and laid them on top of each other for a handful of my
 
 ### Cabin in the Woods
 
-<center>{% img {filename}/images/horror/cabininthewoods.png 700 %}</center>
+<center>{% img {static}/images/horror/cabininthewoods.png 700 %}</center>
 
 1. You
     - Just a bunch of college kids going on vacation.
@@ -117,7 +117,7 @@ I took these two concepts and laid them on top of each other for a handful of my
 
 ### The 2004 Dawn of the Dead (the first horror movie that I remember enjoying)
 
-<center>{% img {filename}/images/horror/dawnofthedead.png 700 %}</center>
+<center>{% img {static}/images/horror/dawnofthedead.png 700 %}</center>
 
 1. You
     - After overlooking a number of tremoring cadavers and apocalyptic news reports on her way home from work, our protagonist settles in for the night.
@@ -138,7 +138,7 @@ I took these two concepts and laid them on top of each other for a handful of my
 
 ### Season 1 of Stranger Things
 
-<center>{% img {filename}/images/horror/strangerthings.png 700 %}</center>
+<center>{% img {static}/images/horror/strangerthings.png 700 %}</center>
 
 1. You
     - The series takes place in quiet, fictional town of Hawkins, Indiana. I'm swamped with sensory memory of seeing a group of friends playing D&D in someone's basement late into the night.
@@ -169,7 +169,7 @@ By the numbers:
 
 - The first scene of the game is our disinterested protagonist talking vaguely about his edgy past and current mission.
 
-<center>{% img {filename}/images/horror/re4lazy.PNG 500 %}</center>
+<center>{% img {static}/images/horror/re4lazy.PNG 500 %}</center>
 
 ### <center>----FEAR OF THE UNKNOWN----</center>
 
@@ -177,19 +177,19 @@ By the numbers:
 
 - Your car stalls and you stop to ask for directions. Before you know it, there's a dude rushing you down with an axe.
 
-<center>{% img {filename}/images/horror/re4firstvillager.PNG 500 %}</center>
+<center>{% img {static}/images/horror/re4firstvillager.PNG 500 %}</center>
 
 (3) Go
 
 - You take care of the local and his friends outside, but your ride got chucked down a canyon. You call back to home base and they tell you to just keep moving.
 
-<center>{% img {filename}/images/horror/re4order.PNG 500 %}</center>
+<center>{% img {static}/images/horror/re4order.PNG 500 %}</center>
 
 (4) Search
 
 - And that's when shit gets out of hand. The hostile locals seem to take super-human amount of ammunition to take down, and they're communicating and using tools.
 
-<center>{% img {filename}/images/horror/re4chainsaw.PNG 500 %}</center>
+<center>{% img {static}/images/horror/re4chainsaw.PNG 500 %}</center>
 <center>And I'm having heart palpitations</center>
 
 ### <center>----ADJUSTMENT TO THE HORROR----</center>
@@ -198,12 +198,12 @@ By the numbers:
 
 - After hours of killing monster-parasite-ridden zombies, you find her. Now instead of running through everything all Willy Nilly, you've got to consider how to escort a civilian through hell.
 
-<center>{% img {filename}/images/horror/re4dumpster.jpg 500 %}</center>
+<center>{% img {static}/images/horror/re4dumpster.jpg 500 %}</center>
 <center>You know in hindsight, this game isn't very empowering...</center>
 
 - Soon thereafter, you're thrust into Act two of this game. Huge tonal shift. The infected stop looking like schlubby villagers, and trade up for cultist robes and scythes, and you're now exploring a huge gothic castle full of puzzles, suits of armor that attack, and whatever the hell this guy is.
 
-<center>{% img {filename}/images/horror/re4blind.PNG 500 %}</center>
+<center>{% img {static}/images/horror/re4blind.PNG 500 %}</center>
 
 - You meet the Big Evil Bad Guy and oh, hey, he nabs Ashley (again) and takes her to some random-ass island. Narratively, this chunk seems like a sliver, but in reality, it's about a third of the playtime.
 
@@ -211,20 +211,20 @@ By the numbers:
 
 - You get Ashley back (again), she bolts you into a chair and shocks the hell out of you to kill the parasite you're infected with, in a refreshing role reversal.
 
-<center>{% img {filename}/images/horror/roleReversal.png 500 %}</center>
+<center>{% img {static}/images/horror/roleReversal.png 500 %}</center>
 
 ### <center>----FIGHT BACK----</center>
 
 - And then you've gotta get off the island. Another huge tonal shift, accentuated by the fact that RE4 was so damn big that this was the point where you'd have to pop in Disc 2 to keep playing. But it doesn't even feel like the same game. You're basically Rambo pulling such ridiculous acts as
 
-<center>{% img {filename}/images/horror/re4chain.PNG 400 %}</center>
+<center>{% img {static}/images/horror/re4chain.PNG 400 %}</center>
 <center>Firefights with zombie chaingun commandos</center>
 
-<center>{% img {filename}/images/horror/re4krauser.PNG 400 %}</center>
+<center>{% img {static}/images/horror/re4krauser.PNG 400 %}</center>
 <center>Cat and mouse battle with super soldier with a blade for an arm</center>
 
 
-<center>{% img {filename}/images/horror/re4rocket.PNG 400 %}</center>
+<center>{% img {static}/images/horror/re4rocket.PNG 400 %}</center>
 <center>Literally taking an item called "Super Rocket Launcher" with you into the final boss battle.</center>
 
 
@@ -232,7 +232,7 @@ By the numbers:
 - After you noob tube the final boss, you escape the island through a buggy jetski minigame
 
 
-<center>{% img {filename}/images/horror/jetski.jpg 500 %}</center>
+<center>{% img {static}/images/horror/jetski.jpg 500 %}</center>
 <center>An accidentally on-the-nose interpretation of [Campbell's Magic Flight](http://changingminds.org/disciplines/storytelling/plots/hero_journey/magic_flight.htm)</center>
 
 
@@ -241,10 +241,10 @@ By the numbers:
 - Finally, like any classic western, he pops a heck-a sweet wheelie on his steed before riding off into the sunset. The writers just phoning it in at this point. Roll credits.
 - Thus we complete the hero's journey from a zone of comfort, through a bunch of Game of the Year awards, and ultimately to the friendzone.
 
-<center>{% img {filename}/images/horror/fz1.png 500 %}</center>
-<center>{% img {filename}/images/horror/fz2.PNG 500 %}</center>
+<center>{% img {static}/images/horror/fz1.png 500 %}</center>
+<center>{% img {static}/images/horror/fz2.PNG 500 %}</center>
 
-<center>{% img {filename}/images/horror/fz3.PNG 500 %}</center>
+<center>{% img {static}/images/horror/fz3.PNG 500 %}</center>
 <center>M'lady.</center>
 
 ## Thanks for Scrolling this Far!
@@ -253,5 +253,5 @@ I'd shelved this blog post for longer than I care to admit-- it's been a crazy f
 
 Of course, recently watching the Evil Dead series for the first time, it was obvious to me that the arc of the 3 movies fit this idea perfectly.
 
-<center>{% img {filename}/images/horror/AoD.jpg 300 %}</center>
+<center>{% img {static}/images/horror/AoD.jpg 300 %}</center>
 <center>Because nothing says "Act 3: Fight Back" quite like a dude with a chansaw for an arm.</center>

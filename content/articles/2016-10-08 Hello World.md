@@ -21,7 +21,7 @@ I was studying to be an actuary for a good while, but seriously struggled with p
 
 I got hired on out of school as a Data analyst for a certain Detroit-based mortgage company, and found myself in an overwhelmingly supportive environment for growth. I leaned on my background in Computer Science and picked up Python to do some report automation and to take myself out Excel. I hated Excel. I was cocooned in a team full of brilliant and supportive mentors, and spent the better part of a year learning SQL tuning and optimization, how to 'talk the talk' and better-inform the decisions of my business partners, building out Tableau dashboards, and started dabbling in Machine Learning. Before long, I got promoted to Senior Data Analyst. This thing was starting to shape up.
 
-| {% img {filename}/images/dataScience.png %} |
+| {% img {static}/images/dataScience.png %} |
 | :--: |
 | All image/content credit to [@BecomingDataSci](https://twitter.com/BecomingDataSci?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) |
 
@@ -37,7 +37,7 @@ On the other hand, in the past couple of years I've developed a real penchant fo
 
 But same story, right? I, like I'm sure many of you, have a formidable backlog of things that I want to get around to watching. Between Netflix, Hulu, Amazon Prime, a Family Video 5 minutes away from me ($.50 Blu-Ray rentals. Who knew??), and what's basically a growing junk drawer of things I write down to try and wrestle into [some amorphous queuing system.](https://letterboxd.com/nick_m3blog/watchlist/)
 
-<center>{% img {filename}/images/jeffPile.jpg 600 400 %}</center>
+<center>{% img {static}/images/jeffPile.jpg 600 400 %}</center>
 
 To confound that aimlessness some more, upon learning about my viewing habits, a friend of mine showed up with a suitcase full of movies that he'd collected over his bout with the same issue-- a very pricey, albeit apathetic game of Hot Potato. And while I do make an effort to get thoughts down about the things that I'm watching (link to the right), those are often quippy first impressions and little more.
 
