@@ -16,3 +16,6 @@
 [submodule "content/workspace/notebooks/War"]
 	path = content/workspace/notebooks/War
 	url = git@github.com:NapsterInBlue/War.git
+[submodule "content/workspace/notebooks/image_to_sprite"]
+	path = content/workspace/notebooks/image_to_sprite
+	url = git@github.com:NapsterInBlue/image_to_sprite.git
