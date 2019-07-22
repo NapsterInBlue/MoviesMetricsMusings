@@ -19,3 +19,6 @@
 [submodule "content/workspace/notebooks/image_to_sprite"]
 	path = content/workspace/notebooks/image_to_sprite
 	url = git@github.com:NapsterInBlue/image_to_sprite.git
+[submodule "content/workspace/notebooks/Movie-Posters-2017"]
+	path = content/workspace/notebooks/Movie-Posters-2017
+	url = git@github.com:NapsterInBlue/Movie-Posters-2017.git
