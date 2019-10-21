@@ -25,3 +25,6 @@
 [submodule "content/workspace/notebooks/circle"]
 	path = content/workspace/notebooks/circle
 	url = git@github.com:NapsterInBlue/circle.git
+[submodule "content/workspace/notebooks/streetlight"]
+	path = content/workspace/notebooks/streetlight
+	url = git@github.com:NapsterInBlue/streetlight.git
