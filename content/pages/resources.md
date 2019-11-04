@@ -41,6 +41,12 @@ After I got down the basics, [Python for Data Analysis](http://shop.oreilly.com/
 
 Might be a bold stance, but once you get comfortable using Python, you should really think of [Grokking's Algorithms](https://www.manning.com/books/grokking-algorithms) as a required reading. It's crucial in your development as a programmer to understand how things are working and how you could improve them-- all style aside, just because something runs doesn't mean that it's good. It gave me a real intuition for what was going on under the hood and turned me on to so many practical ways to solve problems. Really can't stress enough how much I love this book. I've lifted whole chapters and taken them as topics to Knowledge Shares and had whole rooms of people following along, near-effortlessly, because of how well this book is written.
 
+## 3Blue1Brown Essence of Linear Algebra
+
+I struggled so hard with Linear Algebra in college. It felt very byzantine, lousy with "just memorize it," and never once made intuitive sense. Extremely thankful to have come across [this youtube series](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) when I sat down to smooth over the gaps in my knowledge. It's seriously a masterclass in teaching intuitive mathematics and completely illuminated all of the topics I'd had a vague recollection of.
+
+Solid Linear Algebra understanding is paramount to doing good data science and this is an exceptional head start on getting just that.
+
 ## GitHub
 
 
