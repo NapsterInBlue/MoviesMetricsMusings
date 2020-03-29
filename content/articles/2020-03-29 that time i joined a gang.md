@@ -6,9 +6,9 @@ Tags: musing, politics
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
-When I left my job in May, I'd never even heard of Andrew Yang. Like most of the people I'd come to meet at the tail end of last year, I'd never really bothered with politics, neither.
+When I left my job in May, I'd never even heard of Andrew Yang. Like most of the people I'd come to meet at the tail end of last year, I'd never really bothered with politics, either.
 
-I'll spare you my waxing poetic about how I'd spent my summer traveling, leaning into hobbies, and studing like mad. By the time autumn rolled around, I was finally figuring out how to like myself without citing my last performance review as evidence. So go figure the guy telling the world "we need to stop confusing human value with economic value" struck a real chord with me.
+I'll spare you my waxing poetic about how I'd spent my summer traveling, leaning into hobbies, and studying like mad. By the time autumn rolled around, I was finally figuring out how to like myself without citing my last performance review as evidence. So go figure the guy telling the world "we need to stop confusing human value with economic value" struck a real chord with me.
 
 I was surprised and humbled that the campaign reached out to me. Endeared as all hell when "I'm just trying to build cool stuff with my friends" is one of the best interview answers they'd heard. I'd been saying that for years. They extended an offer and I'd never felt such a draw to go be a part of something in my life. It wasn't even an option.
 
@@ -48,13 +48,13 @@ Whether or not anyone decides that this is worth reading, I intend for this to b
 
 -----
 
-That's the introduction I intended to use to preface several other posts at the end of February. I've been writing and doing side projects for a few years now and nothing exhausts my interest in working on them than talking about it. Moreover, teasing the release of a post that I haven't written yet is a sure-fire way to make a hobby feel like work to be avoided. I wrote first, second drafts of everything I wanted to say. Figured it'd be pretty easy to keep up with *revisions*, not outright drafts, edits, and releases.    
+That's the introduction I intended to use to preface several other posts at the end of February. I've been writing and doing side projects for a few years now and nothing exhausts my interest in working on them more than talking about it. Moreover, teasing the release of a post that I haven't written yet is a sure-fire way to make a hobby feel like work to be avoided. I wrote first, second drafts of everything I wanted to say. Figured it'd be pretty easy to keep up with *revisions*, not outright drafts, edits, and releases.    
 
 But the context I release them in just keeps on changing.
 
 When Andrew started teasing a "big announcement" he intended to make, I put it off, not wanting to come off as an opportunist, releasing to ride the attention. His rollout of Humanity Forward came and went and I got busy with other things. I moved a couple times, started a new job, and spent a lot of time glued to this whole "unfolding global pandemic" thing that I write from now. I'm a creature of habit and do most of my best work between the gaps in my routine. However, routine means normal and what's normal anymore?
 
-Nevertheless, it's clear to me that there isn't ever going to be a *right* time to get started. Besides, it's not like I've got some crucial insight into COVID-19 that will fundamentally change what I want to talk about. Best-case scenario, reading me prattle on about this crazy thing I did proves to be decent mental-departure from whatever you're holed up. At worst, I'm finally closing the tabs I've held open-- along with everything else-- for the past couple months.
+Nevertheless, it's clear to me that there isn't ever going to be a *right* time to get started. Besides, it's not like I've got some crucial insight into COVID-19 that will fundamentally change what I want to talk about. Best-case scenario, reading me prattle on about this crazy thing I did proves to be decent mental-departure from whatever you're holed up doing. At worst, I'm finally closing the tabs I've held open-- along with everything else-- for the past couple months.
 
 -------
 
