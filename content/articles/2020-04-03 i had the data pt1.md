@@ -39,7 +39,7 @@ So VAN (Voter Activation Network, I think. Too proud to Google this one) is a da
 
 There's also a tool called Nation Builder, which I'm told does a lot of the same things that VAN does, but I never had any exposure to it.
 
-Anyhow, wrapped around VAN, is a web-application layer called VoteBuilder. Which I *did* have to Google this time, because we always just called the whole thing "VAN." Everyone, from campaign staff to volunteer, had access to our campaign's instance of VoteBuilder and it was the primary data-capture mechanism when doing intentional Direct Voter Contact.
+Anyhow, wrapped around VAN, is a web-application layer called VoteBuilder. Which I *did* have to Google this time, because we always just called the whole thing "VAN." Everyone, from campaign staffer to volunteer, had access to our campaign's instance of VoteBuilder and it was the primary data-capture mechanism when doing intentional Direct Voter Contact.
 
 Volunteers that wanted to come into a field office and start making calls to voters would do so via VAN. Conversely, the army of wonderful, crazy people that braved a blisteringly cold Iowa winter *to knock doors* would instead use...
 
@@ -94,7 +94,7 @@ I don't think this was indicative of anything either of us were doing wrong, min
 
 Additionally, they had a good deal of documentation scattered across a shared Google Drive. But even this seemed geared to an audience already familiar with how everything operated. Moreover, you had to know where to look, if it existed at all.
 
-For instance, a human being in VAN can have a record in MyVoter with a unique ID. They can also have a record in MyCampaign with an ID, unique *per state*. They can **also** have a unique `person_id` that didn't directly correspond to either MyV or MyC. A person could have one of the three, two of the three, sometimes even three and it was never obvious why. We never found any documentation spelling out how these IDs came to be and would talk ourselves in circles trying to figure it out. This was an area in particular where questions to the support queue didn't bear a lot of fruit. Nor did looking for help elsewhere
+For instance, a human being in VAN can have a record in MyVoter with a unique ID. They can also have a record in MyCampaign with an ID, unique *per state*. They can **also** have a unique `person_id` that didn't directly correspond to either MyV or MyC. A person could have one of the three, two of the three, sometimes even three and it was never obvious why. We never found any documentation spelling out how these IDs came to be and would talk ourselves in circles trying to figure it out. This was an area in particular where questions to the support queue didn't bear a lot of fruit. Nor did looking for help elsewhere.
 
 <br></br>
 <center>{% img {static}/images/yang_gang/2_data/van_id.PNG %}</center>
@@ -153,7 +153,7 @@ proj
 
 Instead, we wound up developing with a myriad of anti-patterns that I won't bore you with.
 
-But to walk it back a minute, these tools-- Civis, Phoenix, or otherwise-- are all relatively new in the political sphere. In general, tech and politics doesn't attract kind of money needed to develop state of the art platforms like you'd find at, say, Amazon, Facebook, or Capital One. Additionally, I came to learn that there are only a small handful of vendors that are DNC-sanctioned to even *house* the data. All told, I think Civis is a decent tool, though I honestly have no idea what the other options were, nor how it compared to them. The decision for the campaign to go with Civis happened long before my time and in truth, is one of my biggest question marks should I ever consider doing all of this again, but at a campaign's inception.
+But to walk it back a minute, these tools-- Civis, Phoenix, or otherwise-- are all relatively new in the political sphere. In general, tech and politics doesn't attract the kind of money needed to develop state of the art platforms like you'd find at, say, Amazon, Facebook, or Capital One. Additionally, I came to learn that there are only a small handful of vendors that are DNC-sanctioned to even *house* the data. All told, I think Civis is a decent tool, though I honestly have no idea what the other options were, nor how it compared to them. The decision for the campaign to go with Civis happened long before my time and in truth, is one of my biggest question marks should I ever consider doing all of this again, but at a campaign's inception.
 
 -----
 
