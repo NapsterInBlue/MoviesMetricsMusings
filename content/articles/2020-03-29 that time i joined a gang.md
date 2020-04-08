@@ -62,7 +62,7 @@ Nevertheless, it's clear to me that there isn't ever going to be a *right* time 
 
 * Part I: [What did I get myself into?](https://napsterinblue.github.io/blog/2020/03/29/to-iowa/index.html)
 * Part II.a: [What was the data like?](https://napsterinblue.github.io/blog/2020/04/03/i-had-the-data-i/index.html)
-
+* Part II.b: [What was *our* data like?](https://napsterinblue.github.io/blog/2020/04/08/i-had-the-data-ii/index.html)
 
 Cheers,
 
