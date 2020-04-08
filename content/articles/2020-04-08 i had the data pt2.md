@@ -64,7 +64,7 @@ You get the idea.
 
 --- 
 
-And so, a word of caution to anyone intending to work on a campaign's data team: All of these tools come with varying degrees of "manual upload" interfaces. If the end-users have access to use them, they're going to use them until you automate it away. The impulse is a perfectly rational one-- "Let me export this list from VAN, upload it to into our DVC platform. Tomorrow, I'll export the results and upload them into VAN." And this will work without a hitch *at least as often* as it will fail silently. Then one day, they'll come to you asking why everything is broken. Simultaneously, you'll learn that this problem even exists.
+And so, a word of caution to anyone intending to work on a campaign's data team: All of these tools come with varying degrees of "manual upload" interfaces. If the end-users have access to use them, they're going to use them until you automate it away. The impulse is a perfectly rational one-- "Let me export this list from VAN, upload it into our DVC platform. Tomorrow, I'll export the results and upload them into VAN." And this will work without a hitch *at least as often* as it will fail silently. Then one day, they'll come to you asking why everything is broken. Simultaneously, you'll learn that this problem even exists.
 
 On this matter, my advice is to:
 
@@ -125,9 +125,9 @@ I was curious to see how typical my experience was. Specifically, how it measure
 <center>{% img {static}/images/yang_gang/2_data/amy.PNG %}</center>
 <br></br>
 
-1. On the whole, this looks to be a Adminstrator role, facilitating the use of tools, but not doing much with the data
+1. On the whole, this looks to be an Administrator role, facilitating the use of tools, but not doing much with the data
 2. That, plus the "and/or" between Excel and SQL, which aren't even remotely similar, leads me to believe they're probably not a terribly technical campaign
-3. "Targeted universes" simply means saved searches in VAN to narrow down to specific populations for Voter Contact (e.g. Democrats who have voted, who fit *this* demo and live in *this* area). We did a ton of this
+3. "Targeted universes" simply means saved searches in VAN to narrow down to specific populations for Voter Contact (e.g. Democrats who have voted, who fit *this* demo and live in *this* area). We did a ton of this.
 
 As stated above, the fact that I'm not seeing much in the way of analysis or data warehousing leads me to belive that this is probably an overflow role, designed to free up time for the data team, by staying on top of the *crucial* training and standardization of tools.
 
@@ -169,8 +169,8 @@ In rough order of utility, I'd say:
 * SQL/VAN. From jump, my biggest job was learning the ins and outs of our VAN operation and translating it into the underlying SQL code in Civis. Then, quickly being the resident "how does this work in VAN?" guy for the data team.
 * Soft-skills. The most important aspect of the job is to be shoulder-to-shoulder with the State leadership, translating their goals and needs into tools you can build to give them actionable insight.
 * Tableau. I'd used it a good deal years ago, but it was my bread and butter on this job. Probably stood up ten or so dashboards that got daily use-- everything from "what is our volunteer retention looking like?" to "where are the other candidates playing?"
-* Report generation. With the SQL logic worked out, I could automate the creation of dashboards and workbooks. I hadn't meaningfully used Excel in years and it came careening back into my life by way of Google Sheets. I spent at least a quarter of my time keeping up with all of the edits, permissions, unintentional breaks, permissions again, etc
-* I certainly did my fair share of VAN administrivia. Cleaning/puging data, universe creation, training, answering a million Slack notifications re: "why is VAN the way that it is?"
+* Report generation. With the SQL logic worked out, I could automate the creation of dashboards and workbooks. I hadn't meaningfully used Excel in years and it came careening back into my life by way of Google Sheets. I spent at least a quarter of my time keeping up with all of the edits, permissions, unintentional breaks, permissions again, etc.
+* I certainly did my fair share of VAN administrivia. Cleaning/purging data, universe creation, training, answering a million Slack notifications re: "why is VAN the way that it is?"
 * Pure Python. Being stuck on a one-off data problem and being able to hop in and keep the project moving with some timely regex saved me more times than I'd care to admit.
 * I didn't do nearly as much Pandas as I thought I would. Probably only had cause to use it a few times a week. Mind you, SQL and well-made dashboards made for a pretty reasonable substitute.
 * Shapefiles. They're perplexing until they're not. Even learned enough QGIS to make alterations as needed. Then you can drag and drop them into Tableau, and as long as you've got a `.csv` that bridges `precinct_id` to the individual shape IDs, you're golden.
