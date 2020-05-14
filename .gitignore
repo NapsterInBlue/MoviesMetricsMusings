@@ -2,5 +2,8 @@
 __pycache__/
 .ipynb_checkpoints/
 
+# Publish virtualenv
+publish/
+
 # Pelican output
 output/
