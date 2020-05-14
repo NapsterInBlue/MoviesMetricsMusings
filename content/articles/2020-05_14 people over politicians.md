@@ -35,24 +35,23 @@ The biggest throughline I found in working with the Iowa staff was how incredibl
 
 To that end, I was thrilled to realize just how helpful I could be, greasing the wheels here and there with a bit of code. Something like a "How do I make a leaderboard of organizer recruitment rate with college students?" could have been a daily task, accomplished with a saved search in VAN, using their UI to do some data exports, then some pivot table magic™. Or if they agree "email ending in `.edu`" was sufficiently "college" then it'd take me like 10 minutes to give them a Google sheet that would auto-refresh every day.
 
-``` sql
-select
-    organizer,
-    sum(case when ch.contact_result = 'shift'
-         then 1 else 0 end) as shifts,
-    count(*) as attempts,
-    shifts / attempts as success_rate
+    select
+        organizer,
+        sum(case when ch.contact_result = 'shift'
+             then 1 else 0 end) as shifts,
+        count(*) as attempts,
+        shifts / attempts as success_rate
 
-    from            supporters s
-        left join   contact_history ch 
-            on      ch.people_id = s.id
+        from            supporters s
+            left join   contact_history ch 
+                on      ch.people_id = s.id
 
-    where           RIGHT(s.email, 3) = 'edu'
-        and         ch.contact_type = 'phone'
+        where           RIGHT(s.email, 3) = 'edu'
+            and         ch.contact_type = 'phone'
 
-    group by        ch.organizer
-    order by        success_rate desc
-```
+        group by        ch.organizer
+        order by        success_rate desc
+
 
 A mentor of mine, who I thought about often those days, had always encouraged me to help people achieve their highest and best use. I was thrilled to be able to save people from spreadsheet hell and get back to doing what I sincerely thought was the hard work. And they absolutely did. But to my sincere delight, *so many of them were interested in getting even better with data.* It was a group of hungry fishermen saying "teach me to fish" and I admired the hell out of that.
 
