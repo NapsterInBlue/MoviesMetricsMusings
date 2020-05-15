@@ -86,7 +86,7 @@ It was egoless. Not "Look what I did" but "look what *we're doing*."
 <center>{% img {static}/images/yang_gang/3_people/pride.JPG %}</center>
 <br></br>
 
-Regrettably, I didn't get to meet everyone that came work in Iowa. We about doubled our Field team over the course of a month between December and January and by those pesky laws of time and space, we couldn't all be together all the time. But sincerely-- my best days on the campaign were days I could share good news. It's been the highest honor I've known, getting to call them friends and do all I could to set them up for success.
+Regrettably, I didn't get to meet everyone that came to work in Iowa. We about doubled our Field team over the course of a month between December and January and by those pesky laws of time and space, we couldn't all be together all the time. But sincerely-- my best days on the campaign were days I could share good news. It's been the highest honor I've known, getting to call them friends and do all I could to set them up for success.
 
 ## The Yang Gang
 
@@ -159,7 +159,7 @@ In any case, the next time we take a crack at this, this should be someone's ful
 <center>{% img {static}/images/yang_gang/3_people/transparency.PNG %}</center>
 <br></br>
 
-On the other hand, nobody campaigns in a vacuum. Primaries are a messy afair where of all of the campaigns are trying to elbow for rank over one another. For instance, the precincts that we won outright were a result of data'ing our way into where we thought the other candidates were playing and putting focus where there was virtually free real-estate. And so regardless of intent, that means that information shared is indeed, information shared.
+On the other hand, nobody campaigns in a vacuum. Primaries are a messy affair where all of the campaigns are trying to elbow for rank over one another. For instance, the precincts that we won outright were a result of data'ing our way into where we thought the other candidates were playing and putting focus where there was virtually free real-estate. And so regardless of intent, that means that information shared is indeed, information shared.
 
 On the other, *other* hand, it was an objectively *good thing* to champion how low our average donation was. Or to publicly host progress bars to our fundraising goals (80% of my donations were between 11p and 12a on the last night of a goal push). And while it's clear they recognized this issue wasn't cut-and-dry
 
@@ -205,7 +205,7 @@ I also didn't use the same Asana taskboard they did. The same "10 minute quick h
 
 And I burnt out hard. The few times I *did* talk to the people in NY, there was always concern and a confusion about why I wasn't asking for help. And appropriately, it'd take me a good while to respond to these emails because I was in a constant state of "absolutely slammed." But thanks to a steady diet of Red Bull and exisential dread, I was more or less managing, so I didn't make a fuss.
 
-Then the other shoe fell. Sometime around the back half of December, I think, both the CTO and the Reporting Director who hired me had moved to a totally different positions and we were even more short-handed.
+Then the other shoe fell. Sometime around the back half of December, I think, both the CTO and the Reporting Director who hired me had moved to totally different positions and we were even more short-handed.
 
 ### Righting the Ship
 
