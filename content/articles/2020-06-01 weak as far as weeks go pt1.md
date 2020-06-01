@@ -168,13 +168,13 @@ A week prior, our non-descript conference room became the War Room.
 A few days after that, it was again repurposed as a central hub for all things Get out the Caucus.
 
 <br></br>
-<center>{% img {static}/images/yang_gang/4_caucus/war_room_2.jpg %}</center>
+<center>{% img {static}/images/yang_gang/4_caucus/war_room_2.JPG %}</center>
 <br></br>
 
 Then it, too, was bare.
 
 <br></br>
-<center>{% img {static}/images/yang_gang/4_caucus/war_room_3.jpg %}</center>
+<center>{% img {static}/images/yang_gang/4_caucus/war_room_3.JPG %}</center>
 <br></br>
 
 
@@ -185,3 +185,12 @@ But more on this next time.
 Cheers,
 
 -Nick
+
+
+-------------------
+
+[Index Page](https://napsterinblue.github.io/blog/2020/03/29/about-that-time/)
+
+[Previous Post](https://napsterinblue.github.io/blog/2020/05/15/people-over-politicians/)
+
+[Next Post](https://napsterinblue.github.io/blog/2020/05/14/people-over-politicians/)
