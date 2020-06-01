@@ -242,3 +242,5 @@ Cheers,
 [Index Page](https://napsterinblue.github.io/blog/2020/03/29/about-that-time/)
 
 [Previous Post](https://napsterinblue.github.io/blog/2020/04/08/i-had-the-data-ii/)
+
+[Next Post](https://napsterinblue.github.io/blog/2020/06/01/weak-as-far-as-weeks-go-i/)
