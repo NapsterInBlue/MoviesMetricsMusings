@@ -65,6 +65,7 @@ Nevertheless, it's clear to me that there isn't ever going to be a *right* time 
 * Part II.b: [What was *our* data like?](https://napsterinblue.github.io/blog/2020/04/08/i-had-the-data-ii/index.html)
 * Part III: [The people involved](https://napsterinblue.github.io/blog/2020/05/14/people-over-politicians/)
 * Part IV.a: [How we arrived at the Iowa strategy](https://napsterinblue.github.io/blog/2020/06/01/weak-as-far-as-weeks-go-i)
+* Part IV.b: [How that strategy played out](https://napsterinblue.github.io/blog/2020/09/09/weak-as-far-as-weeks-go-ii)
 
 Cheers,
 

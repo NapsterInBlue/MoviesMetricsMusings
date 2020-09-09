@@ -192,3 +192,5 @@ Cheers,
 [Index Page](https://napsterinblue.github.io/blog/2020/03/29/about-that-time/)
 
 [Previous Post](https://napsterinblue.github.io/blog/2020/05/14/people-over-politicians/)
+
+[Next Post](https://napsterinblue.github.io/blog/2020/09/09/weak-as-far-as-weeks-go-ii/)

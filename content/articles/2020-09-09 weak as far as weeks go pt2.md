@@ -188,3 +188,10 @@ I knew this was categorically a bad idea so I deleted the message. Hurt or no hu
 I shut off my phone and went back to bed.
 
 [The New York Times would later do a great piece on what I was chasing that night.](https://www.nytimes.com/interactive/2020/02/14/us/politics/iowa-caucus-results-mistakes.html)
+
+--------
+
+
+[Index Page](https://napsterinblue.github.io/blog/2020/03/29/about-that-time/)
+
+[Previous Post](https://napsterinblue.github.io/blog/2020/06/01/weak-as-far-as-weeks-go-i/)
