@@ -32,9 +32,9 @@ And then it was six o'clock. One by one, all of the campaign staff that were mil
 
 ### Camera
 
-The senior staff had been in Iowa for a few weeks now, but at the far end of the hall at 950 Office Park, West Des Moines. I'd had a handful of meetings with them between then and now, but they mostly did their own thing. *The Suits* were already settled in by the time we showed up. As were a handful of people I'd never seen before-- consultants other hangers on, mostly. The SlackBot folks, plus a few others, parked in the left corner of the room, ready to field any questions or concerns that came up on the ground.
+The senior staff had been in Iowa for a few weeks now, but at the far end of the hall at 950 Office Park, West Des Moines. I'd had a handful of meetings with them between then and now, but they mostly did their own thing. *The Suits* were already settled in by the time we showed up. As were a handful of people I'd never seen before-- consultants and other hangers on, mostly. The SlackBot folks, plus a few others, parked in the left corner of the room, ready to field any questions or concerns that came up on the ground.
 
-We set up at the front of the room and there were two, 70" TV screens, ostensibly for the *two* dashboards we'd built. But the IDP data wasn't due to start coming in for another couple of hours, so instead we took someone's Sling credentials and channel surfed all the media coverage. I queued up the SlackBot Dashboard and frantically started writing some code that would handle bad user inputs we hadn't considered. Robin had a Jupyter Notebook with a direct data feed set up to answer any questions that our dashboards couldn't.
+We set up at the front of the room and there were two, 70" TV screens, ostensibly for the *two* dashboards we'd built. But the Iowa Democratic Party (IDP) data wasn't due to start coming in for another couple of hours, so instead we took someone's Sling credentials and channel surfed all the media coverage. I queued up the SlackBot Dashboard and frantically started writing some code that would handle bad user inputs we hadn't considered. Robin had a Jupyter Notebook with a direct data feed set up to answer any questions that our dashboards couldn't.
 
 At 7:02, SlackBot data started to pour in.
 
@@ -90,7 +90,7 @@ But by this point, most of the room had started checking out. An hour later, the
 <center>9:34 means we'd been here 3 1/2 hours at this point.</center>
 <br></br>
 
-By the time the other candidates came out and started declaring victory, the suits were nowhere to be seen. We sat around, refreshing the results on the Iowa Democratic Party (IDP) site to no avail. The folks that had left to be precinct captains found their way back and left again. When we got off a brief call with the IDP and learned the data wouldn't be out until tomorrow, it was the thrown towel the stragglers had been waiting for. Most everybody packed up and went to the bar.
+By the time the other candidates came out and started declaring victory, the suits were nowhere to be seen. We sat around, refreshing the results on the IDP site to no avail. The folks that had left to be precinct captains found their way back and left again. When we got off a brief call with the IDP and learned the data wouldn't be out until tomorrow, it was the thrown-towel the stragglers had been waiting for. Most everybody packed up and went to the bar.
 
 On the other hand, the State Director stuck around with us until about two or so, helping to shape a narrative from the data we *did* have.
 
