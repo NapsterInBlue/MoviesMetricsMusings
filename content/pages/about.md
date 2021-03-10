@@ -9,7 +9,7 @@ Slug: about
 
 Hey, I'm Nick!
 
-I do data science for a small, Detroit-based mortgage company. More accurately, I work on a data science team, where my deep passion for Python, process, and helping the people around me grow makes me useful, more often than not. I spend most of my time writing library code for analysis, developing process automation, and figuring out how the hell you do model deployment in AWS, lol
+I do data science for a small, Detroit-based company. More accurately, I work on a data science team, where my deep passion for Python, process, and helping the people around me grow makes me useful, more often than not. I spend most of my time writing library code for analysis, developing process automation, and figuring out how the hell you do model deployment in AWS, lol
 
 This blog aims, first and foremost, to be a place for me to cut my teeth on things I'm learning and finding intereseting. Close second to that is to mildly amuse.
 
